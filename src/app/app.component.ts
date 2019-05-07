@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Routes, Router } from 'node_modules/@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,14 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public disable: boolean = false; 
-
-  selected(square){
-    console.log(square);
-    this.disable = true;
-  }
-
-  enable() {
-    this.disable = false;
-  }
+  constructor(public router: Router ) {}
 }
