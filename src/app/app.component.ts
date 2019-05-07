@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'front-chess';
+  public disable: boolean = false; 
+
+  selected(square){
+    console.log(square);
+    this.disable = true;
+  }
+
+  enable() {
+    this.disable = false;
+  }
 }
