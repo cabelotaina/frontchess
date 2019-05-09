@@ -1,17 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../environments/environment';
+import { KnightMoviments } from './knight.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChessboardService {
 
-  private baseRoute = 'http://localhost:3000/api/v1/';
-  private knightRoute = this.baseRoute+'knight/'
+  private baseRoute = environment.api;
+  private knightMovimentsRoute = this.baseRoute+'knight/'
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public get(square){
-    return this.http.get<any>(this.knightRoute+square);
+    return this.http.get<KnightMoviments>(
+      this.knightMovimentsRoute+square
+    );
   }
 }
