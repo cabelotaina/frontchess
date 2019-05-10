@@ -2,7 +2,7 @@
 
 This software is a front-end of a API, the ideia is very simple: show for any user the Valid Chess Moves for a knight.
 
-The backend is the (backChess)[https://github.com/cabelotaina/back-chess], the focus is a assessment of the open position for Full Stack on ae.studio, a company Working in Brazil and USA.
+The backend is the (backChess)[https://github.com/cabelotaina/backchess], the focus is a assessment of the open position for Full Stack on ae.studio, a company Working in Brazil and USA.
 
 ## Install
 
