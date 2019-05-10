@@ -1,27 +1,17 @@
 # FrontChess
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This software is a front-end of a API, the ideia is very simple: show for any user the Valid Chess Moves for a knight.
 
-## Development server
+The backend is the (backChess)[https://github.com/cabelotaina/back-chess], the focus is a assessment of the open position for Full Stack on ae.studio, a company Working in Brazil and USA.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Install
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run ```npm i``` on command line interface, and all package dependencies are instaled.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. You can put all files on any server, nginx, apache or a another server.
 
-## Running unit tests
+## CONTRIBUTE
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+See the ```CONTRIBUTING.md``` file.
