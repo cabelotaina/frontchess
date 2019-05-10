@@ -12,7 +12,7 @@ export class ChessboardComponent implements OnInit {
   private event;
   public whiteClass: string;
   public blackClass: string;
-  private squares: [];
+  private squares: Array<string>;
   private turnButtom;
 
   constructor(private chessboardService: ChessboardService) { }
